@@ -14,4 +14,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./   # folder where your HTML files are
+        publish_dir: E:\To be a Dev\Projects\Favourite Music Artist\Vocaloid Music Artists Web Collection   # folder where your HTML files are
