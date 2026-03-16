@@ -30,10 +30,20 @@ The project is planned to include pages for the following artists:
 - **Kanaria**
 - **Iyowa (いよわ)**
 
+And the following vocaloids:
+
+- **Hatsune Miku**
+- **Kagamine Rin and kagamine len**
+- **megurine luka**
+- Mascots charecters like **doushite-chan** and **amaina**
+- **kaito**
+
 At the moment:
 
  **DECO27 page — completed**  
- **All other artist pages — currently in development**
+ **PinocchioP completed**
+ **doushite-chan & amaina complated**
+ **All other artist and vocaloid pages are in development — currently in development**
 
 ---
 
@@ -102,8 +112,7 @@ The project will continue to grow as additional pages are written and structured
 
 Planned improvements include:
 
-- Completing all producer pages
-- Creating a **homepage index**
+- Completing all producer and vocaloid pages
 - Adding **shared navigation across pages**
 - Implementing **CSS styling**
 - Improving **responsive layout**
