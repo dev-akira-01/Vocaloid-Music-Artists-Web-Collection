@@ -42,8 +42,8 @@ At the moment:
 
  **DECO27 page — completed**  
  **PinocchioP completed**
- **doushite-chan & amaina complated**
- **All other artist and vocaloid pages are in development — currently in development**
+ **doushite-chan & amaina completed**
+ **All other artist and vocaloid pages — currently in development**
 
 ---
 
@@ -82,14 +82,11 @@ This project intentionally focuses on **semantic-first HTML design**.
 
 The completed DECO*27 page currently includes:
 
-- Structured **artist biography**
+- Structured **biography**
 - **table of content**
-- **Music style**
-- **Collaborations section**
 - **Fun facts & trivia**
 - **Image gallery**
-- **Embedded Spotify players**
-- **Back-to-top navigation**
+- **Embedded Youtube and Spotify players**
 
 ---
 
