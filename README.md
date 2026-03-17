@@ -45,6 +45,11 @@ At the moment:
  **doushite-chan & amaina completed**
  **All other artist and vocaloid pages — currently in development**
 
+ **Update Development**
+  - I just added a feedback form for users, i used formspree website, to handle the backend for the form and linked my professional email to it. 
+
+  - Now users can report if any info is wrong, or copyrighted or wished to be removed or updated.
+
 ---
 
 ##  HTML Concepts Practiced

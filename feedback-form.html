@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocaloid Wiki - Contact Us</title>
+    <link rel="icon" href="/icon.png">
+</head>
+<body>
+<main>
+    <h1>Contact Us</h1>
+
+<form action="https://formspree.io/f/xaqplngy" method="POST">
+
+  <p>
+    <label>Your Name (optional):<br>
+      <input type="text" name="name" size="30">
+    </label>
+  </p>
+
+  <p>
+    <label>Your Email (so we can follow up):<br>
+      <input type="email" name="email" size="30" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Issue Type:<br>
+      <select name="issue_type" required size="1" style="width: 240px;">
+        <option value="" disabled selected>Select an issue</option>
+        <option value="wrong_information">Wrong Information</option>
+        <option value="copyright_issue">Copyright Issue</option>
+        <option value="suggestion_add">Suggestion / Add Info</option>
+      </select>
+    </label>
+  </p>
+
+  <p>
+    <label>Page / Section:<br>
+      <input type="text" name="page_or_section" placeholder="e.g. Hatsune Miku - Versions" size="30" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Describe the Issue:<br>
+      <textarea name="issue_details" rows="5" cols="30" required></textarea>
+    </label>
+  </p>
+
+  <p>
+    <label>Source or Reference (optional):<br>
+      <input type="url" name="source_url" placeholder="https://..." size="30">
+    </label>
+  </p>
+
+  <p>
+    <button type="submit">Submit Report</button>
+  </p>
+
+</form>
+</main>
+</body>
+</html>
