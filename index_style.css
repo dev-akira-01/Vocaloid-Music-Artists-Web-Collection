@@ -116,6 +116,18 @@ h3 {
   color: #ffffff;
 }
 
-.updates ul{
+.contact-support ul {
+  list-style: none;
+}
+
+.contact-support li::before {
+  content: "▶";
+  color: #cff5f5;
+  position: absolute;
+  left: 0;
+  margin-left: 22px;
+}
+
+.updates ul {
   list-style: none;
 }
