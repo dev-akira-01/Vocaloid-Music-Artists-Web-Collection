@@ -40,7 +40,7 @@ h2 {
 .nav-bar a {
   font-size: 22px;
   text-decoration: none;
-  color: #00e5cc;
+  color: #fff;
   position: relative;
 }
 
@@ -56,6 +56,10 @@ h2 {
   left: 0;
   transform: scaleX(0);
   transition: 0.3s ease-in-out;
+}
+
+.nav-bar a:hover {
+  color: #00e5cc;
 }
 
 .nav-bar a:hover::after {
@@ -110,4 +114,8 @@ h3 {
 
 .link:active {
   color: #ffffff;
+}
+
+.updates ul{
+  list-style: none;
 }
