@@ -131,7 +131,8 @@ p {
   color: #ffffff;
 }
 
-.contact-support ul {
+.contact-support ul,
+.quick-facts ul {
   list-style: none;
 }
 
@@ -139,6 +140,13 @@ p {
   margin-bottom: 10px;
 }
 
+.quick-facts li::before {
+  content: "→";
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  margin-left: 22px;
+}
 .contact-support li::before {
   content: "▶";
   color: #cff5f5;
@@ -151,7 +159,8 @@ p {
   list-style: none;
 }
 
-.updates li {
+.updates li,
+.quick-facts li {
   margin-bottom: 10px;
 }
 
