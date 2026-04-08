@@ -1,39 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,497;1,497&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,497;1,497&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 body {
   width: 100vw;
-  background-color: #0d1b2a;
-  color: #e0f7f7;
+  background-color: #080f17;
+  color: #cff5f5;
+  font-family: Montserrat;
 }
 
 h1 {
   text-align: center;
+  font-family: Orbitron;
+  color: #00e5cc;
 }
 
-.nav_bar {
+h2 {
+  font-family: Orbitron;
+  color: #00e5cc;
+}
+
+.nav-bar {
   padding: 0;
   margin: 0;
-  background-color: #03a9a9;
+  background-color: #080f17;
+  border-bottom: 1.5px solid #00e5cc;
   margin-bottom: 25px;
 }
 
-.nav_bar ul {
+.nav-bar ul {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
   margin: 20px;
 }
 
-.nav_bar a {
+.nav-bar a {
+  font-size: 22px;
   text-decoration: none;
-  color: #fff;
+  color: #00e5cc;
   position: relative;
 }
 
-.nav_bar a::after {
+.nav-bar a::after {
   margin-bottom: -3px;
   content: "abx";
   content-visibility: hidden;
   position: absolute;
-  background-color: #0f0061;
+  background-color: #39f5e0;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -42,6 +58,56 @@ h1 {
   transition: 0.3s ease-in-out;
 }
 
-.nav_bar a:hover::after {
+.nav-bar a:hover::after {
   transform: scaleX(1);
+}
+
+.dev-notice {
+  text-align: center;
+  width: 50vw;
+  border: 2px solid #00e5cc;
+  background-color: #091a2e;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dev-notice h2 {
+  margin-bottom: 5px;
+  font-size: 20;
+  font-family: Bebas Neue;
+  color: #00e5cc;
+}
+
+.dev-notice h2::after {
+  content: "⚠️";
+  margin-left: 5px;
+}
+
+h2 {
+  margin: 25px 30px;
+}
+
+h3 {
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: #00e5cc;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.link:visited {
+  color: #0a9e8f;
+}
+
+.link:active {
+  color: #ffffff;
 }
