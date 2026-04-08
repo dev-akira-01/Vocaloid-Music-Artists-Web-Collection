@@ -11,6 +11,12 @@ body {
   font-family: Montserrat;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid #1a3a4a;
+  margin: 32px 0;
+}
+
 h1 {
   text-align: center;
   font-family: Orbitron;
@@ -69,7 +75,8 @@ h2 {
 .dev-notice {
   text-align: center;
   width: 50vw;
-  border: 2px solid #00e5cc;
+  border: 1.5px solid #00e5cc;
+  border-radius: 20px;
   background-color: #091a2e;
   padding-bottom: 30px;
   margin-top: 40px;
@@ -95,8 +102,16 @@ h2 {
 }
 
 h3 {
+  font-family: Orbitron;
+  color: #4dffd9;
+  font-size: 16px;
   box-sizing: border-box;
-  padding: 8px;
+  padding: 15px;
+}
+
+p {
+  padding: 5px;
+  margin: 15px;
 }
 
 .link {
@@ -120,6 +135,10 @@ h3 {
   list-style: none;
 }
 
+.contact-support li {
+  margin-bottom: 10px;
+}
+
 .contact-support li::before {
   content: "▶";
   color: #cff5f5;
@@ -130,4 +149,24 @@ h3 {
 
 .updates ul {
   list-style: none;
+}
+
+.updates li {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  border-left: 3px solid #00e5cc;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #091a2e;
+  color: #8de8de;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  padding: 15px;
 }
